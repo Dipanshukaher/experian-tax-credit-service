@@ -7,14 +7,13 @@
 3. Cucumber plugin to be installed in VScode
 
 **Steps to run the project:**
-
 1. Clone the project to your local machine
 2. Open the experian-tax-credit-service folder in VScode
-3. Open terminal
-4. Execute the command - npm install
+3. Open the terminal
+4. Execute the command - npm install to install the required node modules
 5. Execute test cases based on tags - npm run test:tags "@TC-1"
 
-**Reporting**- Execution report will be generate in the location ../experian-tax-credit-service/cucumber-report.html 
+**Reporting**- Execution report will be generated in the location ../experian-tax-credit-service/cucumber-report.html 
 
 
 **Project structure**:
