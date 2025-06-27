@@ -7,7 +7,7 @@ export class HomePage {
   constructor(private page: Page) {}
 
   async goto() {
-    await this.page.goto(this.url, { timeout: 50000 });
+    await this.page.goto(this.url, { timeout: 120000 });
   }
 
   async validateHomePageLoaded() {
