@@ -1,0 +1,157 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "experian-forms;validate-register-and-name-confirmation",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Validate register and name confirmation",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4588011900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User navigates to home page",
+            "match": {
+              "location": "tests\\stepdefs\\register.steps.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14202099
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Question",
+                      "Value"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "FirstName",
+                      "Dipanshu"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "LastName",
+                      "Kaher"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Email",
+                      "dipanshu_kaher@mail.com"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "AddressLine1",
+                      "\"341, Sector 6\""
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "City",
+                      "Hyderabad"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "PostalCode",
+                      "12331"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User enters the details",
+            "match": {
+              "location": "tests\\stepdefs\\register.steps.ts:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22587048999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "User answers the questionnaire",
+            "match": {
+              "location": "tests\\stepdefs\\register.steps.ts:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1823266600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "User validates name",
+            "match": {
+              "location": "tests\\stepdefs\\register.steps.ts:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1830641199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "User is redirected to home page",
+            "match": {
+              "location": "tests\\stepdefs\\register.steps.ts:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5475479500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3055781199
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC-1",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "experian-forms",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Experian forms",
+    "tags": [],
+    "uri": "tests\\features\\homepage.feature"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "cucumberautocomplete.steps": [
+    "tests/stepdefs/**/*.ts"
+  ],
+  "cucumberautocomplete.syncfeatures": "tests/features/**/*.feature",
+  "cucumberautocomplete.strictGherkinCompletion": true,
+  "cucumberautocomplete.smartSnippets": true,
+  "cucumberautocomplete.stepsInvariants": true,
+  "cucumberautocomplete.debug": true,
+  "cucumberautocomplete.preImport": ["./stepLoader.js"]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "experian-tax-credit-service-v3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:tags": "ts-node run-by-tags.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.53.1",
+    "@types/node": "^24.0.4",
+    "cucumber-html-reporter": "^7.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^11.3.0"
+  }
+}
