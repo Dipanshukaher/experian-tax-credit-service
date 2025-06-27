@@ -66,6 +66,6 @@ Then("User is redirected to home page", async()=>{
     await homePage.validateHomePageLoaded();
 });
 
-After(async function () {
-    await browser.close();
-});
+// After(async function () {
+//     await browser.close();
+// });
