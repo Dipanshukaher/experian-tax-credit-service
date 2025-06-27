@@ -64,8 +64,9 @@ Then("User validates name", async()=>{
 
 Then("User is redirected to home page", async()=>{
     await homePage.validateHomePageLoaded();
+    await browser.close();
 });
 
-// After(async function () {
-//     await browser.close();
-// });
+After(async function () {
+    // await browser.close();
+});
