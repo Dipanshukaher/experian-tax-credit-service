@@ -1,12 +1,12 @@
 # experian-tax-credit-service
-Automation test
+**Automation test**
 
-Pre requisites:
+**Pre requisites:**
 1. Node.js to be installed
 2. VSCode to be installed
 3. Cucumber plugin to be installed in VScode
 
-Steps to run the project:
+**Steps to run the project:**
 
 1. Clone the project to your local machine
 2. Open the experian-tax-credit-service folder in VScode
@@ -14,7 +14,10 @@ Steps to run the project:
 4. Execute the command - npm install
 5. Execute test cases based on tags - npm run test:tags "@TC-1"
 
-Project structure:
+**Reporting**- Execution report will be generate in the location ../experian-tax-credit-service/cucumber-report.html 
+
+
+**Project structure**:
 experian-tax-credit-service/
 │
 ├── .vscode/                     # VSCode editor settings (optional)
